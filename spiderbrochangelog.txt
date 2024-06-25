@@ -1,0 +1,114 @@
+SPIDERBRO CHANGELOG
+
+23/10/2023 - 1.9.2
+- Fixed a collision bug in Level 9 that would allow Spiderbro to leave the map.
+
+12/09/2023 - 1.9.1
+- Fixed bug where Polybius Game would fail to start (Windows only).
+
+30/08/2023 - 1.9
+- Unnecessary dialogue removed. Spiderbro was way too talkative and it was frustrating players.
+- Zombie Game removed in favour of Polybius Game.
+- Small changes to improve continuity for Spiderbro 2.
+- Fix to some scripts that could potentially softlock the game.
+
+26/05/2023 - 1.8
+- Improvements to end credits making the font more legible.
+- Improvements to some full screen banners making the font more legible.
+- Remove automatic update checks and option to check for updates as Spiderbro is no longer supported (installer only).
+- Brought continuity between Installer and Steam versions.
+- Small tweaks to prepare for Epic Games Store release.
+- macOS support has been removed. Sorry but it was more trouble than it was worth :(
+
+13/07/2022 - 1.7
+- Updated to engine 2.7.9.
+- Spiderbro now no longer needs a manual restart after a save is erased.
+- Fix to placement of letter I in text dialogues.
+- Fix to issue where save would be erased when verifying local files (Steam only).
+- Fix to robots occasionally not following their walk routes when the game is first launched.
+
+14/06/2022 - 1.6
+- Updated to engine 2.7.6.
+- Fix to robot that says incorrect speech after puzzle is solved on Level 6.
+- Tweaks to make game more friendly to online stores and distribution systems.
+
+25/05/2022 - 1.5
+- Updated to engine 2.7.5.
+- Updater now has new look.
+- Fixed bug where manually triggered updates wouldn't display text banners.
+- Updater now recovers previous version automatically if an update fails.
+
+22/05/2022 - 1.4
+- Updated to engine 2.7.4.
+- Spiderbro now checks for updates upon launch.
+- Fixed bug where speedrun timer would display PC clock values when changing settings the main menu.
+
+15/05/2022 - 1.3.1
+- Small tweaks to final end game cutscene.
+
+02/05/2022 - 1.3
+- Updated to engine 2.7.3.
+- New speedrun mode. Enable with launch parameter -speedrun. Accurate up to 3 decimal places. Displays time counter during gameplay and exports time to text file in game folder upon game completion.
+
+17/04/2022 - 1.2
+- Small changes to easter egg that was being mistook as part of the plot.
+- Added collision and interaction to switch type that main player cannot use to avoid player confusion.
+- Added some audio samples that were missing.
+- Removed some unused files, assets and hidden content.
+- Fixed bug where the crates in level 8 would reset their position after leaving the room.
+
+13/03/2022 - 1.1
+- Updated to engine 2.7.2.
+- Fix to pink key floating above player on level 4.
+- Main menu and in-game PCs now no longer play a sound when an option is unavailable/non-existent. 
+
+22/02/2022 - 1.0
+- Updated to engine 2.7.1.
+- New original music and sound effects.
+- Bug fixes to some save game scripts.
+- Collision bug fixes.
+- Scripts now perform faster resulting in snappier cutscenes.
+- Fallen rope on level 7 no longer floats above player.
+- Fixed bug where robot on level 7 wouldn't speak.
+- Fixed bug where text box image would sometimes not appear.
+- Fixed bug where a pink door on level 4 would have stretched pixels.
+- Fixed bug where lubricant bottle would re-appear on level 6 once door had been opened.
+- Fixed bug where script on level 10 would fail to turn collision on after running, resulting in the game softlocking as the player is unable to interact with any triggers, objects or NPCs.
+- Fixed bug where Spiderbro talk sprite would sometimes not appear.
+
+10/09/2021 - 0.9 BETA
+- Updated to engine 2.6.6.
+- Redesigned menus.
+- Fixed bug where some pickup items had incorrect layer value, making some items float above player character.
+- Changes to story including brand new ending.
+- Fixed bug where sounds would not function under macOS.
+- Fixed bug where some collision turning off after pausing.
+- Fixed bug where robot that could push the player character through a wall unintentionally.
+- Fixed bug where repairing the robot without getting the plastic bottle on level 7 would cause both the broken and working robot to appear on the map.
+- Fixed bug where button mashing would cause some crazy, especially during dialogue boxes and whilst using an in-game PC.
+- Improvements to some animations.
+- Updated end credits.
+
+14/06/2021 - 0.8 BETA
+- Updated to engine 2.6.4.
+- Branding tweaks.
+- Animations converted to new system, reducing file count.
+- Sample sound effects added.
+- Font colours changed.
+- Small additions to story.
+- Fixed bug where invisible trigger was missing from a map, making an exit unusable and allowing the player character to move beyond the map collision.
+- Fixed oversight where player character would just blink in and out of existence when going through the hole in the pile of plastic bottles.
+
+02/05/2021 - 0.7 BETA
+- Updated to engine 2.6.3.
+- Animation offsets disabled.
+- Fullscreen mode now default.
+- Developer mode and console switched off.
+- Small bug fixes and tweaks to story.
+- Object collision converted to new system, reducing file count.
+
+18/05/2021 - 0.6 BETA
+- Updated to engine 2.6.1.
+
+22/04/2021 - 0.5 BETA
+- Story complete.
