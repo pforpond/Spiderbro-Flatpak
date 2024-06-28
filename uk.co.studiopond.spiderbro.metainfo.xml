@@ -34,7 +34,7 @@
     <content_attribute id="violence-cartoon">mild</content_attribute>
     <content_attribute id="violence-fantasy">mild</content_attribute>
   </content_rating>
-  <developer id="co.uk.studiopond">
+  <developer id="uk.co.studiopond">
     <name>Studio Pond</name>
   </developer>
 
